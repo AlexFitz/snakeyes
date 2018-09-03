@@ -7,7 +7,7 @@ var currentplayer = 1;
 function diceroll(dice1, dice2) {
     dice1 = Math.round(Math.floor((Math.random() * 6.49) + 0.5));
     dice2 = Math.round(Math.floor((Math.random() * 6.49) + 0.5));
-    confirm("A "+dice1+" and a "+dice2".")
+    confirm("Player "+currentplayer+" got a "+dice1+" and a "+dice2".")
 if (dice1 == 1) {
     dice1 = 0;
     dice2 = 0;
