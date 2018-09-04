@@ -75,7 +75,7 @@ if (sum2 == numbertoplayto) {
         }
     }
 }
-    if (currentplayer == 1) {
+    else if (currentplayer == 1) {
             currentplayer = 2;
             diceroll(dice1, dice2);
         }
