@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(10,255,10);
+}
+p {
+  color: white;
+  font-family:cursive;
+  width: 300px;
+  background-color: black;
+  border-style:groove;
+  border-color:aqua;
+  border-width:12px;
+  border-radius:30px;
+  margin:20px;
+    font-style:italic
+    
+}
+
+h2 {
+color: rgb(255,255,255);
+font-family:cursive;
+border-style:groove;
+  border-color:aqua;
+  border-width:12px;
+  border-radius:30px;
+  margin:30px;
+  font-weight: bold;
+  font-size: 24px;
+  
+  }
+  
+  head {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(255,255,255);
+font-family:cursive;
+ margin:30px; }
