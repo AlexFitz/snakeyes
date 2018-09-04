@@ -7,8 +7,8 @@ var currentplayer = 1;
 var numbertoplayto = prompt("What number do you ant to play to?", 100);
 var skipturn = 0;
 function diceroll(dice1, dice2) {
-    dice1 = Math.round(Math.floor((Math.random() * 6.49) + 0.5));
-    dice2 = Math.round(Math.floor((Math.random() * 6.49) + 0.5));
+    dice1 = Math.round(Math.floor((Math.random() * 6.49) + 0.6));
+    dice2 = Math.round(Math.floor((Math.random() * 6.49) + 0.6));
     confirm("Player "+currentplayer+" got a "+dice1+" and a "+dice2+".")
 if (dice1 == 1) {
     dice1 = 0;
@@ -74,15 +74,13 @@ if (sum2 == numbertoplayto) {
             diceroll(dice1, dice2);
         }
     }
-}
-    else if (currentplayer == 1) {
+};
+    if (currentplayer == 1) {
             currentplayer = 2;
             diceroll(dice1, dice2);
         }
-    }
     else if (currentplayer == 2) {
             currentplayer = 1;
             diceroll(dice1, dice2);
         }
     }    
-}
